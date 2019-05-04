@@ -18,7 +18,7 @@ deaths = [1.2, 1.7, 1.8, 2.2,
 
 lines = plt.plot(years, pops, years, deaths)
 plt.grid(True)
-plt.step(lines)
+plt.step(lines, color=(1, .4, .4), marker="o")
 
 plt.show()
 
