@@ -27,7 +27,7 @@ fr = plt.bar(index + 0.4, france_scores, bar_width, label='France', alpha=.4)
 eua = plt.bar(index + 0.6, eua_scores, bar_width, label='United States', alpha=.4)
 
 plt.grid(True)
-plt.legend()
+plt.legend(frameon=None, bbox_to_anchor=(1, 1), loc=2)  # legend outside
 plt.xticks(index + .3 / 2, ('python', 'java', 'c#'))
 
 plt.xlabel('Subjects')
